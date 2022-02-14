@@ -2,6 +2,7 @@
   "name": "music-platform-api",
   "version": "1.0.0-beta.2",
   "description": "",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run clean && tsc",
