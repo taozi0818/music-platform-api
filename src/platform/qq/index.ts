@@ -63,13 +63,9 @@ export default class QQApi {
     const { lyric } = data;
 
     if (!lyric) {
-      return {
-        lyrics: '',
-      };
+      return '';
     }
 
-    return {
-      lyrics: Buffer.from(lyric, 'base64').toString(),
-    }
+    return Buffer.from(lyric, 'base64').toString();
   }
 }
