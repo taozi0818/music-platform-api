@@ -35,7 +35,7 @@ export default class QQApi {
     return data;
   }
 
-  public async getLyrics(id: number) {
+  public async getLyrics(id: string) {
     const { data } = await this.axios.request<{
       retcode: number;
       code: number;
